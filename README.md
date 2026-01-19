@@ -132,6 +132,11 @@ https://photos.app.goo.gl/YzMMv8EsmhCvShJT9
 
 https://photos.app.goo.gl/XWBFDPETqwmgrAmj9
 
+o copilot funcionou muito bem
+
+não conseguia copiar o original do Dio só ficava carregando e não ia
+
+aprendi que para a IA funcionar bem o objetivo tem que ser bem detalhado
 
 Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
 
