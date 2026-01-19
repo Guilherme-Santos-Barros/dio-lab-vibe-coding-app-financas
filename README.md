@@ -25,50 +25,99 @@ Antes de pedir para a IA "criar um app", é importante definir com clareza o que
 
 Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
 
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+PRD Simplificado – App de Finanças com IA Conversacional
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+📌 Contexto
+Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas naturais com o usuário.
+A ideia é facilitar o controle financeiro de forma simples e intuitiva, sem formulários manuais ou planilhas complexas. O app deve usar IA como parceira criativa, permitindo que o usuário “programe” seu orçamento e metas apenas conversando.
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+🪙 Problema
+Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual.
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+A criação de orçamentos é vista como tediosa e burocrática.
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+Falta de personalização: os apps não entendem o estilo de vida do usuário.
 
-Tip
+Objetivo: Resolver isso com uma experiência de conversa leve, criativa e personalizada, onde a IA sugere planos automáticos de economia e acompanha o progresso.
 
-Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+👥 Público-Alvo
+Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação.
 
-2. Explorando o Lovable na Prática
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
+Principalmente iniciantes que nunca conseguiram manter planilhas ou apps tradicionais.
 
-Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
-Durante essa etapa, você pode orientar a IA para três entregas principais:
+Jovens adultos e profissionais que buscam simplicidade e motivação no controle financeiro.
 
-Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
-Tip
+⚙️ Funcionalidades-Chave (MVP)
+Registrar gastos via chat em linguagem natural
 
-Se preferir, você pode fazer tudo com o Copilot. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+Exemplo: “Gastei R$50 em restaurante ontem” → IA registra automaticamente.
 
-3. Entregando o Desafio na DIO
-Finalize seu projeto criando um repositório no GitHub (pode ser um fork deste).
-No README do seu repositório, inclua:
+Classificação automática das transações
+
+IA identifica categorias (alimentação, transporte, lazer) sem esforço do usuário.
+
+Definir e acompanhar metas financeiras
+
+Usuário conversa: “Quero economizar R$2.000 até julho”.
+
+IA cria plano automático e ajusta conforme os gastos.
+
+Agente Financeiro com dicas de economia
+
+Recomendações simples e personalizadas: “Se reduzir 15% no delivery, alcança sua meta mais rápido”.
+
+Relatórios simples e personalizados
+
+Visualizações leves: gráficos básicos e mensagens motivacionais.
+
+Exemplo: “Você está 70% do caminho para sua viagem!”.
+
+📱 Entregável da IA
+Gerar um plano de MVP com:
+
+Principais telas do app.
+
+Recursos necessários para funcionamento inicial.
+
+Esboço de validação com usuários.
+
+Linguagem acessível e educativa, em português.
+
+🖼️ Plano de MVP – Telas e Recursos
+1. Tela Inicial (Chat com IA)
+Caixa de conversa estilo mensageiro.
+
+Usuário registra gastos e metas em linguagem natural.
+
+IA responde com feedback imediato.
+
+2. Tela de Metas
+Lista de objetivos definidos (ex.: viagem, reserva de emergência).
+
+Barra de progresso visual simples.
+
+3. Tela de Relatórios
+Gráficos básicos (pizza ou barras) mostrando categorias de gastos.
+
+Mensagens motivacionais e insights da IA.
+
+4. Notificações Inteligentes
+Alertas sobre gastos excessivos.
+
+Lembretes para manter metas.
+
+✅ Validação Inicial
+Teste com 20–30 usuários iniciantes que nunca usaram apps de finanças.
+
+Coletar feedback sobre:
+
+Facilidade de uso da conversa.
+
+Clareza das metas sugeridas.
+
+Motivação gerada pelas mensagens da IA.
+
+Iterar rapidamente com base nos insights
 
 Seu prompt final (PRD);
 Prints ou pequenos vídeos das interações com a IA;
