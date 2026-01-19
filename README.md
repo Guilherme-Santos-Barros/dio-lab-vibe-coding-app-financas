@@ -11,6 +11,10 @@ Problema: Muitas pessoas não conseguem manter um controle financeiro porque os 
 
 Precisamos de uma solução que permita controlar as finanças por meio de uma conversa simples, com agentes de IA capazes de criar planos de economia personalizados e automatizados. Você deve utilizar as ideias de Vibe Coding e MVP (Produto Mínimo Viável) para desenvolver o conceito de um aplicativo que resolva o problema citado.
 
+🌟 Solução Proposta
+Um aplicativo que utiliza IA conversacional para transformar o controle financeiro em uma experiência leve e criativa.
+Com Vibe Coding, o usuário "programa" seu plano financeiro apenas conversando com a IA, sem precisar lidar com menus complexos ou planilhas.
+
 Important
 
 Você não precisa construir o código! O foco está em usar a IA como sua parceira criativa, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
